@@ -1,0 +1,8 @@
+.item-row {
+  height: "20px";
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}

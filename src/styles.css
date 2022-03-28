@@ -1,0 +1,32 @@
+.Container {
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.heading {
+  font-size: 2rem;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.photo-div {
+  height: 100px;
+  line-height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.status-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  line-height: 100px;
+  height: 100px;
+}
