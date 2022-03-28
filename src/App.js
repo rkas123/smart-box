@@ -19,7 +19,7 @@ import "./styles.css";
 import ModalComp from "./components/Modal.js";
 import { useSpeechSynthesis } from "react-speech-kit";
 
-const socket = new WebSocket("ws://iot-test-temp.herokuapp.com");
+const socket = new WebSocket("wss://iot-test-temp.herokuapp.com");
 //const socket = new WebSocket("ws://localhost:8000");
 
 const style = {
