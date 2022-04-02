@@ -101,7 +101,7 @@ function App() {
 
   let statusComp;
 
-  if (lock) {
+  if (!lock) {
     statusComp = (
       <div>
         <Typography variant="h1" component="div" gutterbottom>
